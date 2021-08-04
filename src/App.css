@@ -9,3 +9,24 @@
 .img-tiny {
   width: 30px;
 }
+
+.ui.button.floatingButton {
+  border-radius: 100%;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  position: absolute;
+  background-color: var(--amplify-primary-color);
+  color: var(--amplify-secondary-contrast)
+}
+
+.ui.button.floatingButton:hover {
+  background-color: var(--amplify-primary-color);
+}
+
+.floatingButton_icon {
+  margin: 0 !important;
+  padding: 0 !important;
+}
